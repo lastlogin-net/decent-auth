@@ -7,7 +7,7 @@ services.
 * Simple
 * Compiled to WebAssembly (using [Extism][extism]) so it can run in many
   languages (currently supports Rust, Node.js, and Go. New implementations
-  can be implemented in <1000 lines of code).
+  can be added in <1000 lines of code).
 * Focus on decentralized login protocols (currently supports OpenID Connect,
   ATProto OAuth, Fediverse OAuth, email, and QR code)
 
