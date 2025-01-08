@@ -36,7 +36,7 @@ state.
 * Still young and not reviewed for security. Probably has vulnerabilities.
 * Since every request runs through single-threaded wasm it probably won't be
   very performant compared to other solutions.
-* All state is currently persisted to a simple KV store interface (defaults to
+* All state is currently persisted using a simple KV store interface (defaults to
   sqlite). This is done to minimize the API surface that is necessary for
   developers to need to implement if they want to use a custom store, but
   likely has performance and other implications.
